@@ -1,0 +1,30 @@
+name:                rush1
+version:             0.1.0.0
+author:              "Matisse Marsac"
+maintainer:          "example@example.com"
+copyright:           "2025 Matisse Marsac"
+
+dependencies:
+- base >= 4.7 && < 5
+- HUnit
+
+library:
+  source-dirs: .
+  exposed-modules:
+    - HandlEr
+    - Pushswap
+  ghc-options:
+    - -Wall
+
+tests:
+  unit-tests:
+    main:                MainTests.hs
+    source-dirs:         test
+    ghc-options:
+    - -threaded
+    - -rtsopts
+    - -with-rtsopts=-N
+    dependencies:
+    - base
+    - HUnit
+    - rush1

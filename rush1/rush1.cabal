@@ -1,0 +1,43 @@
+cabal-version: 1.12
+
+-- This file has been generated from package.yaml by hpack version 0.36.0.
+--
+-- see: https://github.com/sol/hpack
+
+name:           rush1
+version:        0.1.0.0
+author:         Matisse Marsac
+maintainer:     example@example.com
+copyright:      2025 Matisse Marsac
+build-type:     Simple
+
+library
+  exposed-modules:
+      HandlEr
+      Pushswap
+  other-modules:
+      Main
+      Paths_rush1
+  hs-source-dirs:
+      ./
+  ghc-options: -Wall
+  build-depends:
+      HUnit
+    , base >=4.7 && <5
+  default-language: Haskell2010
+
+test-suite unit-tests
+  type: exitcode-stdio-1.0
+  main-is: MainTests.hs
+  other-modules:
+      HandlErTests
+      PushswapTests
+      Paths_rush1
+  hs-source-dirs:
+      test
+  ghc-options: -threaded -rtsopts -with-rtsopts=-N
+  build-depends:
+      HUnit
+    , base
+    , rush1
+  default-language: Haskell2010
