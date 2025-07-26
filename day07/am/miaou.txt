@@ -1,0 +1,70 @@
+# Got:
+The ship USS Kreog has been finished.
+It is 289 m in length and 132 m in width.
+It can go to Warp 6!
+Weapons are set: 20 torpedoes ready.
+The independent ship Greok just finished its construction.
+It is 150 m in length and 230 m in width.
+We are the Borgs. Lower your shields and surrender yourselves unconditionally.
+Your biological characteristics and technologies will be assimilated.
+Resistance is futile.
+We are the Borgs. Lower your shields and surrender yourselves unconditionally.
+Your biological characteristics and technologies will be assimilated.
+Resistance is futile.
+Cube weapon frequency is 25
+Cube weapon frequency is 40
+Second Cube weapon frequency is 12
+Second Cube weapon frequency is 31
+Admiral Pierce ready for action.
+USS Kreog: The core is set.
+USS Kreog: The core is stable at the time.
+Greok: The core is set.
+Greok: The core is stable at the time.
+James T. Kirk: I'm glad to be the captain of the USS Kreog.
+On order from Admiral Pierce:
+Kreog: Firing on target. 19 torpedoes remaining.
+On order from Admiral Pierce:
+Kreog: Firing on target. 18 torpedoes remaining.
+On order from Admiral Pierce:
+Kreog: Firing on target. 17 torpedoes remaining.
+On order from Admiral Pierce:
+Kreog: Firing on target. 16 torpedoes remaining.
+Firing on target with 40 GW frequency.
+Firing on target with 40 GW frequency.
+Firing on target with 31 GW frequency.
+
+
+# But expected:
+The ship USS Kreog has been finished.
+It is 289 m in length and 132 m in width.
+It can go to Warp 6!
+Weapons are set: 20 torpedoes ready.
+The independent ship Greok just finished its construction.
+It is 150 m in length and 230 m in width.
+We are the Borgs. Lower your shields and surrender yourselves unconditionally.
+Your biological characteristics and technologies will be assimilated.
+Resistance is futile.
+We are the Borgs. Lower your shields and surrender yourselves unconditionally.
+Your biological characteristics and technologies will be assimilated.
+Resistance is futile.
+Cube weapon frequency is 25
+Cube weapon frequency is 40
+Second Cube weapon frequency is 12
+Second Cube weapon frequency is 31
+Admiral Pierce ready for action.
+USS Kreog: The core is set.
+USS Kreog: The core is stable at the time.
+Greok: The core is set.
+Greok: The core is stable at the time.
+James T. Kirk: I'm glad to be the captain of the USS Kreog.
+On order from Admiral Pierce:
+Kreog: Firing on target. 19 torpedoes remaining.
+On order from Admiral Pierce:
+Kreog: Firing on target. 18 torpedoes remaining.
+On order from Admiral Pierce:
+Kreog: Firing on target. 17 torpedoes remaining.
+On order from Admiral Pierce:
+Kreog: Firing on target. 16 torpedoes remaining.
+Firing on target with 40GW frequency.
+Firing on target with 40GW frequency.
+Firing on target with 31GW frequency

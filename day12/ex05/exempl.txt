@@ -1,0 +1,52 @@
+/ex05> g++ -std=c++20 -Wall -Wextra -o ex05 Picture.cpp Toy.cpp Buzz.cpp Woody.cpp ex05.cpp
+ex05.cpp: In function ‘int main()’:
+ex05.cpp:13:47: error: passing ‘const Toy::Error’ as ‘this’ argument discards qualifiers [-fpermissive]
+   13 |         std::cout << "no error in " << e.where() << ": " << e.what() << std::endl;
+      |                                        ~~~~~~~^~
+In file included from ex05.cpp:2:
+Toy.hpp:48:29: note:   in call to ‘std::string Toy::Error::where()’
+   48 |                 std::string where();
+      |                             ^~~~~
+ex05.cpp:13:67: error: passing ‘const Toy::Error’ as ‘this’ argument discards qualifiers [-fpermissive]
+   13 |         std::cout << "no error in " << e.where() << ": " << e.what() << std::endl;
+      |                                                             ~~~~~~^~
+Toy.hpp:47:29: note:   in call to ‘std::string Toy::Error::what()’
+   47 |                 std::string what();
+      |                             ^~~~
+ex05.cpp:21:48: error: passing ‘const Toy::Error’ as ‘this’ argument discards qualifiers [-fpermissive]
+   21 |             std::cout << "Error in " << e.where() << ": " << e.what() << std::endl;
+      |                                         ~~~~~~~^~
+Toy.hpp:48:29: note:   in call to ‘std::string Toy::Error::where()’
+   48 |                 std::string where();
+      |                             ^~~~~
+ex05.cpp:21:68: error: passing ‘const Toy::Error’ as ‘this’ argument discards qualifiers [-fpermissive]
+   21 |             std::cout << "Error in " << e.where() << ": " << e.what() << std::endl;
+      |                                                              ~~~~~~^~
+Toy.hpp:47:29: note:   in call to ‘std::string Toy::Error::what()’
+   47 |                 std::string what();
+      |                             ^~~~
+ex05.cpp:28:48: error: passing ‘const Toy::Error’ as ‘this’ argument discards qualifiers [-fpermissive]
+   28 |             std::cout << "Error in " << e.where() << ": " << e.what() << std::endl;
+      |                                         ~~~~~~~^~
+Toy.hpp:48:29: note:   in call to ‘std::string Toy::Error::where()’
+   48 |                 std::string where();
+      |                             ^~~~~
+ex05.cpp:28:68: error: passing ‘const Toy::Error’ as ‘this’ argument discards qualifiers [-fpermissive]
+   28 |             std::cout << "Error in " << e.where() << ": " << e.what() << std::endl;
+      |                                                              ~~~~~~^~
+Toy.hpp:47:29: note:   in call to ‘std::string Toy::Error::what()’
+   47 |                 std::string what();
+      |                             ^~~~
+ex05.cpp:37:48: error: passing ‘const Toy::Error’ as ‘this’ argument discards qualifiers [-fpermissive]
+   37 |             std::cout << "Error in " << e.where() << ": " << e.what() << std::endl;
+      |                                         ~~~~~~~^~
+Toy.hpp:48:29: note:   in call to ‘std::string Toy::Error::where()’
+   48 |                 std::string where();
+      |                             ^~~~~
+ex05.cpp:37:68: error: passing ‘const Toy::Error’ as ‘this’ argument discards qualifiers [-fpermissive]
+   37 |             std::cout << "Error in " << e.where() << ": " << e.what() << std::endl;
+      |                                                              ~~~~~~^~
+Toy.hpp:47:29: note:   in call to ‘std::string Toy::Error::what()’
+   47 |                 std::string what();
+      |                             ^~~~
+# Build failed.

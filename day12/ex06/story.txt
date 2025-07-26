@@ -1,0 +1,6 @@
+hi
+picture:ham.txt
+nothing special
+picture:rex.txt
+picture: exemplgge.txt
+CU

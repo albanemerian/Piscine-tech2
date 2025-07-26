@@ -1,0 +1,47 @@
+int main(void)
+{
+    list_t *list = NULL;
+//     unsigned int size = 0;
+//     bool temp = true;
+    int a = 1804289383;
+    int b = 846930886;
+    int c = 1681692777;
+    int d = 1714636915;
+    int e = 1957747793;
+    int f = 424238335;
+    int g = 719885386;
+    int h = 1649760492;
+    int i = 596516649;
+    int j = 1189641421;
+    int k = 1025202362;
+    int l = 1350490027;
+    printf("int_list_get_size: %d\n", list_get_size(list));
+    printf("list_is_empty: %d\n", list_is_empty(list));
+    printf("list_del_elem_at_front: %i\n", list_del_elem_at_front(&list));
+    printf("list_add_elem_at_back: %i\n", list_del_elem_at_back(&list));
+    list_add_elem_at_back(&list, &a);
+    list_add_elem_at_back(&list, &b);
+    list_add_elem_at_back(&list, &c);
+    list_add_elem_at_back(&list, &d);
+    list_add_elem_at_back(&list, &e);
+    list_add_elem_at_back(&list, &f);
+    list_add_elem_at_back(&list, &g);
+    list_add_elem_at_back(&list, &h);
+    list_add_elem_at_back(&list, &i);
+    list_add_elem_at_back(&list, &j);
+    list_add_elem_at_back(&list, &k);
+    list_add_elem_at_back(&list, &l);
+    list_dump(list, &int_displayer);
+    printf("list_del_elem_at_front: %i\n",list_del_elem_at_front(&list));
+    printf("list_del_elem_at_front: %i\n",list_del_elem_at_front(&list));
+    printf("list_del_elem_at_front: %i\n",list_del_elem_at_front(&list));
+    list_dump(list, &int_displayer);;
+    printf("list_del_elem_at_position: %i\n", list_del_elem_at_position(&list, 8));
+    printf("list_del_elem_at_position: %i\n", list_del_elem_at_position(&list, 4));
+    printf("list_del_elem_at_position: %i\n", list_del_elem_at_position(&list, 0));
+    list_dump(list, &int_displayer);
+    printf("list_del_elem_at_position: %i\n", list_del_elem_at_position(&list, 10));
+    printf("list_del_elem_at_position: %i\n", list_del_elem_at_position(&list, 20));
+    list_dump(list, &int_displayer);
+    list_clear(&list);
+}

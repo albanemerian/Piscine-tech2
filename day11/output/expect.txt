@@ -1,0 +1,146 @@
+# Got:
+size: 0, empty: 1$
+front: Invalid operation on a list$
+back: Invalid operation on a list$
+popFront: Invalid operation on a list$
+popBack: Invalid operation on a list$
+pushBack (Donatello): Donatello is alive$
+pushBack (Raphaelo): Raphaelo is alive$
+pushBack (Leonardo): Leonardo is alive$
+pushBack (Michelangelo): Michelangelo is alive$
+front: Donatello is touched$
+back: Michelangelo is touched$
+size: 4, empty: 0$
+popFront: popBack: size: 2, empty: 0$
+
+
+# But expected:
+size: 0, empty: 1$
+front: Invalid operation on a list$
+back: Invalid operation on a list$
+popFront: Invalid operation on a list$
+popBack: Invalid operation on a list$
+pushBack (Donatello): Donatello is alive$
+pushBack (Raphaelo): Raphaelo is alive$
+pushBack (Leonardo): Leonardo is alive$
+pushBack (Michelangelo): Michelangelo is alive$
+front: Donatello is touched$
+back: Michelangelo is touched$
+size: 4, empty: 0$
+popFront: Donatello is dead$
+popBack: Michelangelo is dead$
+size: 2, empty: 0$
+Raphaelo is dead$
+Leonardo is dead$
+# Test failed: invalid output.
+
+
+ Executing all tests...
+# Got:
+size: 0, empty: 1$
+front: Invalid operation on a list$
+back: Invalid operation on a list$
+popFront: Invalid operation on a list$
+popBack: Invalid operation on a list$
+pushBack (Donatello): Donatello is alive$
+pushBack (Raphaelo): Raphaelo is alive$
+pushBack (Leonardo): Leonardo is alive$
+pushBack (Michelangelo): Michelangelo is alive$
+front: Donatello is touched$
+back: Michelangelo is touched$
+size: 4, empty: 0$
+popFront: popBack: size: 2, empty: 0$
+Raphaelo is dead$
+Leonardo is dead$
+# But expected:
+size: 0, empty: 1$
+front: Invalid operation on a list$
+back: Invalid operation on a list$
+popFront: Invalid operation on a list$
+popBack: Invalid operation on a list$
+pushBack (Donatello): Donatello is alive$
+pushBack (Raphaelo): Raphaelo is alive$
+pushBack (Leonardo): Leonardo is alive$
+pushBack (Michelangelo): Michelangelo is alive$
+front: Donatello is touched$
+back: Michelangelo is touched$
+size: 4, empty: 0$
+popFront: Donatello is dead$
+popBack: Michelangelo is dead$
+size: 2, empty: 0$
+Raphaelo is dead$
+Leonardo is dead$
+
+
+# Executing all tests...
+# Got:
+use_count (ptr3): 1$
+Pikachu is alive$
+use_count (ptr3): 1$
+Pikachu is dead$
+Bulbizar is alive$
+Salameche is alive$
+Bulbizar is dead$
+Salameche is dead$
+Carapuce is alive$
+Carabaffe is alive$
+Carapuce is dead$
+Carabaffe is dead$
+Pikachu is alive$
+use_count (ptr1): 3$
+use_count (ptr2): 3$
+use_count (ptr3): 3$
+use_count (ptr1): 2$
+use_count (ptr2): 2$
+use_count (ptr3): 1$
+use_count (ptr1): 1$
+use_count (ptr2): 1$
+use_count (ptr3): 1$
+Pikachu is dead$
+use_count (ptr1): 1$
+use_count (ptr2): 1$
+use_count (ptr3): 1$
+Pikachu is alive$
+Pikachu is touched$
+Pikachu is touched$
+Pikachu is dead$
+Pikachu is alive$
+Mew is alive$
+Mew is dead$
+Pikachu is dead$
+# But expected:
+use_count (ptr3): 0$
+Pikachu is alive$
+use_count (ptr3): 1$
+Pikachu is dead$
+Bulbizar is alive$
+Salameche is alive$
+Bulbizar is dead$
+Salameche is dead$
+Carapuce is alive$
+Carabaffe is alive$
+Carapuce is dead$
+Carabaffe is dead$
+Pikachu is alive$
+use_count (ptr1): 3$
+use_count (ptr2): 3$
+use_count (ptr3): 3$
+use_count (ptr1): 2$
+use_count (ptr2): 2$
+use_count (ptr3): 0$
+use_count (ptr1): 1$
+use_count (ptr2): 0$
+use_count (ptr3): 0$
+Pikachu is dead$
+use_count (ptr1): 0$
+use_count (ptr2): 0$
+use_count (ptr3): 0$
+Pikachu is alive$
+Pikachu is touched$
+Pikachu is touched$
+Pikachu is dead$
+Pikachu is alive$
+Mew is alive$
+Mew is dead$
+Pikachu is dead$
+# Test failed: invalid output.

@@ -1,0 +1,36 @@
+Droid '' Activated
+Droid 'Avenger' Activated
+Droid '', Standing by, 50
+Droid 'Avenger', Standing by, 50
+Durasel, the Energy rabbit : 200
+Droid 'Avenger', Kill Kill Kill!, 100
+Energy remaining in the Rabbit: 150
+Droid 'Avenger' Activated, Memory Dumped
+Ok! Kill 'em all!
+Nice to meet you Rex! 
+Droid 'Avenger', Kill Kill Kill!, 18446744073709551606
+Droid 'Avenger', Kill Kill Kill!, 42
+Energy remaining in the Rabbit: 0
+Droid 'Avenger' Destroyed
+Droid 'Avenger' Destroyed
+Droid 'Rex' Destroyed
+
+
+# But expected:
+Droid '' Activated
+Droid 'Avenger' Activated
+Droid '', Standing by, 50
+Droid 'Avenger', Standing by, 50
+Durasel, the Energy rabbit : 200
+Droid 'Avenger', Kill Kill Kill!, 100
+Energy remaining in the Rabbit: 150
+Droid 'Avenger' Activated, Memory Dumped
+Ok! Kill 'em all!
+Nice to meet you Rex! 
+Droid 'Avenger', Kill Kill Kill!, 100
+Droid 'Avenger', Kill Kill Kill!, 42
+Energy remaining in the Rabbit: 0
+Droid 'Avenger' Destroyed
+Droid 'Avenger' Destroyed
+Droid 'Rex' Destroyed
+# Test failed: invalid output.

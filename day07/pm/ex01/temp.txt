@@ -1,0 +1,106 @@
+# Got:
+[KoalaBot] Bob-01
+	[Parts] Arms A-01 status : OK
+	[Parts] Legs L-01 status : OK
+	[Parts] Head H-01 status : OK
+Status : OK
+[KoalaBot] Bob-01
+	[Parts] Arms A-01 status : OK
+	[Parts] Legs L-01 status : OK
+	[Parts] Head H-01 status : OK
+Status : OK
+==========
+[KoalaBot] Bob-01
+	[Parts] Arms A-404 status : OK
+	[Parts] Legs L-042 status : KO
+	[Parts] Head Scope status : KO
+Status : KO
+[KoalaBot] Bob-01
+	[Parts] Arms Arms-mk2 status : KO
+	[Parts] Legs L-mk4 status : OK
+	[Parts] Head Visor status : OK
+Status : KO
+==========
+[KoalaBot] Bob-01
+	[Parts] Arms Omega-Canon status : OK
+	[Parts] Legs Booster status : OK
+	[Parts] Head Helmet status : OK
+Status : OK
+==========
+
+
+[KoalaBot] Bob-01
+	[Parts] Arms Arms-mk2 status : KO
+	[Parts] Legs Booster status : OK
+	[Parts] Head Helmet status : OK
+Status : KO
+[KoalaBot] Bob-01
+	[Parts] Arms Arms-mk2 status : KO
+	[Parts] Legs L-mk4 status : OK
+	[Parts] Head Visor status : OK
+Status : KO
+==========
+
+[KoalaBot] Bob-01
+	[Parts] Arms A-01 status : OK
+	[Parts] Legs L-01 status : OK
+	[Parts] Head H-01 status : OK
+Status : OK
+[KoalaBot] Bob-01
+	[Parts] Arms A-01 status : OK
+	[Parts] Legs L-01 status : OK
+	[Parts] Head H-01 status : OK
+Status : OK
+
+
+# But expected:
+[KoalaBot] Bob-01
+	[Parts] Arms A-01 status : OK
+	[Parts] Legs L-01 status : OK
+	[Parts] Head H-01 status : OK
+Status : OK
+[KoalaBot] Bob-01
+	[Parts] Arms A-01 status : OK
+	[Parts] Legs L-01 status : OK
+	[Parts] Head H-01 status : OK
+Status : OK
+==========
+[KoalaBot] Bob-01
+	[Parts] Arms A-404 status : OK
+	[Parts] Legs L-042 status : KO
+	[Parts] Head Scope status : KO
+Status : KO
+[KoalaBot] Bob-01
+	[Parts] Arms Arms-mk2 status : KO
+	[Parts] Legs L-mk4 status : OK
+	[Parts] Head Visor status : OK
+Status : KO
+==========
+[KoalaBot] Bob-01
+	[Parts] Arms Omega-Canon status : OK
+	[Parts] Legs Booster status : OK
+	[Parts] Head Helmet status : OK
+Status : OK
+==========
+[KoalaBot] Bob-01
+	[Parts] Arms Arms-mk2 status : KO
+	[Parts] Legs Booster status : OK
+	[Parts] Head Helmet status : OK
+Status : KO
+[KoalaBot] Bob-01
+	[Parts] Arms Omega-Canon status : OK
+	[Parts] Legs L-mk4 status : OK
+	[Parts] Head Visor status : OK
+Status : OK
+==========
+[KoalaBot] Bob-01
+	[Parts] Arms A-01 status : OK
+	[Parts] Legs L-01 status : OK
+	[Parts] Head H-01 status : OK
+Status : OK
+[KoalaBot] Bob-01
+	[Parts] Arms A-01 status : OK
+	[Parts] Legs L-01 status : OK
+	[Parts] Head H-01 status : OK
+Status : OK
+# Test failed: invalid output.

@@ -1,0 +1,68 @@
+ Got:
+KreogCom 101010 initialized
+Has partner after creation: false
+KreogCom 35 initialized
+Has partner after AddPartner(): true
+KreogCom 35 shutting down
+Has partner after KillPartner(): false
+KreogCom 65 initialized
+KreogCom 51 initialized
+KreogCom 109 initialized
+==========
+KreogCom 109 currently at 20 8
+KreogCom 51 currently at 73 34
+KreogCom 65 currently at 56 25
+KreogCom 101010 currently at 42 42
+==========
+PING : KreogCom 101010 currently at 42 42
+==========
+PING : KreogCom 109 currently at 20 8
+==========
+KreogCom 51 shutting down
+KreogCom 65 currently at 56 25
+KreogCom 101010 currently at 42 42
+==========
+KreogCom 10 initialized
+KreogCom 10 shutting down
+KreogCom 65 shutting down
+==========
+KreogCom 101010 currently at 42 42
+==========
+KreogCom 101010 currently at 42 42
+KreogCom 101010 shutting down
+
+# But expected:
+KreogCom 101010 initialized
+Has partner after creation: false
+KreogCom 35 initialized
+Has partner after AddPartner(): true
+KreogCom 35 shutting down
+Has partner after KillPartner(): false
+KreogCom 65 initialized
+KreogCom 51 initialized
+KreogCom 109 initialized
+==========
+KreogCom 109 currently at 20 8
+KreogCom 51 currently at 73 34
+KreogCom 65 currently at 56 25
+KreogCom 101010 currently at 42 42
+==========
+PING : KreogCom 101010 currently at 42 42
+==========
+PING : KreogCom 109 currently at 20 8
+==========
+KreogCom 51 shutting down
+KreogCom 109 currently at 20 8
+KreogCom 65 currently at 56 25
+KreogCom 101010 currently at 42 42
+==========
+KreogCom 10 initialized
+KreogCom 10 shutting down
+KreogCom 109 shutting down
+KreogCom 65 shutting down
+==========
+KreogCom 101010 currently at 42 42
+==========
+KreogCom 101010 currently at 42 42
+KreogCom 101010 shutting down
+# Test failed: invalid output.

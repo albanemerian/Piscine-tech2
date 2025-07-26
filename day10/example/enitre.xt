@@ -1,0 +1,94 @@
+orange: 0 vitamins
+[name: "strawberry", vitamins: 6, peeled: true]
+[name: "almond", vitamins: 0, peeled: false]
+[name: "orange", vitamins: 7, peeled: true]
+
+Cerise lives.
+Framboise lives.
+Anis lives.
+[[name: "Cerise", vitamins: 0, peeled: false], [name: "Framboise", vitamins: 0, peeled: false], [name: "Anis", vitamins: 0, peeled: false]]
+Serge lives.
+0
+Serge dies.
+Cerise dies.
+[[name: "Framboise", vitamins: 0, peeled: false], [name: "Anis", vitamins: 0, peeled: false]]
+Framboise dies.
+Anis dies.
+
+[name: "almond", vitamins: 0, peeled: false]
+0
+0
+
+[[name: "orange", vitamins: 7, peeled: true], [name: "lemon", vitamins: 0, peeled: false], [name: "strawberry", vitamins: 6, peeled: true], [name: "almond", vitamins: 0, peeled: false]]
+mixer has no blade
+result: 0
+[[name: "orange", vitamins: 7, peeled: true], [name: "lemon", vitamins: 0, peeled: false], [name: "strawberry", vitamins: 6, peeled: true], [name: "almond", vitamins: 0, peeled: false]]
+result: 13
+[[name: "lemon", vitamins: 0, peeled: false], [name: "almond", vitamins: 0, peeled: false]]
+
+[name: "strawberry", vitamins: 6, peeled: true]
+[name: "strawberry", vitamins: 1138, peeled: true]
+
+
+
+Executing all tests...
+# Got: 
+Before sort:$ unsorted: [[name: "lime", vitamins: 0, peeled: false]]$
+lemon: []$
+citrus: []$
+berry: []$ $
+After sort:$
+unsorted: [[name: "lime", vitamins: 0, peeled: false]]$
+lemon: []$ citrus: []$
+berry: []$
+# But expected:
+Before sort:$
+unsorted: [[name: "lime", vitamins: 0, peeled: false]]$
+lemon: []$ citrus: []$
+berry: []$ $
+After sort:$ unsorted: []$
+lemon: [[name: "lime", vitamins: 0, peeled: false]]$
+citrus: []$
+berry: []$
+# Test failed: invalid output.
+
+
+# Got:
+Before sort:$
+unsorted: [[name: "lemon", vitamins: 0, peeled: false], [name: "orange", vitamins: 0, peeled: false], [name: "grapefruit", vitamins: 0, peeled: false], [name: "blood orange", vitamins: 0, peeled: false], [name: "strawberry", vitamins: 6, peeled: true], [name: "raspberry", vitamins: 5, peeled: true], [name: "almond", vitamins: 0, peeled: false], [name: "coconut", vitamins: 0, peeled: false], [name: "lime", vitamins: 0, peeled: false], [name: "alien", vitamins: 42, peeled: true]]$
+lemon: []$
+citrus: []$
+berry: []$
+$
+After sort:$
+unsorted: [[name: "grapefruit", vitamins: 0, peeled: false], [name: "blood orange", vitamins: 0, peeled: false], [name: "raspberry", vitamins: 5, peeled: true], [name: "almond", vitamins: 0, peeled: false], [name: "coconut", vitamins: 0, peeled: false], [name: "alien", vitamins: 42, peeled: true]]$
+lemon: [[name: "lemon", vitamins: 0, peeled: false]]$
+citrus: [[name: "orange", vitamins: 0, peeled: false]]$
+berry: [[name: "strawberry", vitamins: 6, peeled: true]]$
+
+# But expected:
+Before sort:$
+unsorted: [[name: "lemon", vitamins: 0, peeled: false], [name: "orange", vitamins: 0, peeled: false], [name: "grapefruit", vitamins: 0, peeled: false], [name: "blood orange", vitamins: 0, peeled: false], [name: "strawberry", vitamins: 6, peeled: true], [name: "raspberry", vitamins: 5, peeled: true], [name: "almond", vitamins: 0, peeled: false], [name: "coconut", vitamins: 0, peeled: false], [name: "lime", vitamins: 0, peeled: false], [name: "alien", vitamins: 42, peeled: true]]$
+lemon: []$
+citrus: []$
+berry: []$
+$
+After sort:$
+unsorted: [[name: "grapefruit", vitamins: 0, peeled: false], [name: "blood orange", vitamins: 0, peeled: false], [name: "raspberry", vitamins: 5, peeled: true], [name: "almond", vitamins: 0, peeled: false], [name: "coconut", vitamins: 0, peeled: false], [name: "lime", vitamins: 0, peeled: false], [name: "alien", vitamins: 42, peeled: true]]$
+lemon: [[name: "lemon", vitamins: 0, peeled: false]]$
+citrus: [[name: "orange", vitamins: 0, peeled: false]]$
+berry: [[name: "strawberry", vitamins: 6, peeled: true]]$
+# Test failed: invalid outpu
+
+
+
+# Got:
+fruits before packing:$
+[name: "raspberry", vitamins: 5, peeled: true]$
+packed fruits: nullptr$
+# But expected:
+fruits before packing:$
+[name: "raspberry", vitamins: 5, peeled: true]$
+packed fruits:$
+[[name: "raspberry", vitamins: 5, peeled: true]]$
+# Test failed: invalid output.

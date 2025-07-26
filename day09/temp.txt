@@ -1,0 +1,106 @@
+# Got:
+Andrey goes for an adventure.
+Andrey learns magic from his spellbook.
+> Enchanter Andrey: 100 HP, 64 PP.
+> Enchanter Andrey: attack.
+Andrey doesn't know how to fight.
+> Enchanter Andrey: attack does 0 damages.
+> Enchanter Andrey: 100 HP, 64 PP.
+> Enchanter Andrey: special.
+Andrey casts a fireball.
+> Enchanter Andrey: special does 99 damages.
+> Enchanter Andrey: 100 HP, 14 PP.
+> Enchanter Andrey: special.
+Andrey is out of power.
+> Enchanter Andrey: special does 0 damages.
+> Enchanter Andrey: 100 HP, 14 PP.
+> Enchanter Andrey: rest.
+Andrey meditates.
+> Enchanter Andrey: 100 HP, 100 PP.
+> Enchanter Andrey: special.
+Andrey casts a fireball.
+> Enchanter Andrey: special does 99 damages.
+> Enchanter Andrey: 100 HP, 50 PP.
+> Enchanter Andrey: rest.
+Andrey meditates.
+> Enchanter Andrey: 100 HP, 100 PP.
+> Enchanter Andrey: rest.
+Andrey meditates.
+> Enchanter Andrey: 100 HP, 100 PP.
+> Enchanter Andrey: 1 damage.
+Andrey takes 1 damage.
+> Enchanter Andrey: 99 HP, 100 PP.
+> Enchanter Andrey: attack.
+Andrey doesn't know how to fight.
+> Enchanter Andrey: attack does 0 damages.
+> Enchanter Andrey: 99 HP, 100 PP.
+> Enchanter Andrey: 99 damage.
+Andrey is out of combat.
+> Enchanter Andrey: 0 HP, 100 PP.
+> Enchanter Andrey: attack.
+Andrey doesn't know how to fight.
+> Enchanter Andrey: attack does 0 damages.
+> Enchanter Andrey: 0 HP, 100 PP.
+> Enchanter Andrey: special.
+Andrey is out of combat.
+> Enchanter Andrey: special does 0 damages.
+> Enchanter Andrey: 0 HP, 100 PP.
+> Enchanter Andrey: rest.
+Andrey is out of combat.
+> Enchanter Andrey: 0 HP, 100 PP.
+Andrey closes his spellbook.
+Andrey is back to his crops.
+
+# But expected:
+Andrey goes for an adventure.
+Andrey learns magic from his spellbook.
+> Enchanter Andrey: 100 HP, 64 PP.
+> Enchanter Andrey: attack.
+Andrey doesn't know how to fight.
+> Enchanter Andrey: attack does 0 damages.
+> Enchanter Andrey: 100 HP, 64 PP.
+> Enchanter Andrey: special.
+Andrey casts a fireball.
+> Enchanter Andrey: special does 99 damages.
+> Enchanter Andrey: 100 HP, 14 PP.
+> Enchanter Andrey: special.
+Andrey is out of power.
+> Enchanter Andrey: special does 0 damages.
+> Enchanter Andrey: 100 HP, 14 PP.
+> Enchanter Andrey: rest.
+Andrey meditates.
+> Enchanter Andrey: 100 HP, 100 PP.
+> Enchanter Andrey: special.
+Andrey casts a fireball.
+> Enchanter Andrey: special does 99 damages.
+> Enchanter Andrey: 100 HP, 50 PP.
+> Enchanter Andrey: rest.
+Andrey meditates.
+> Enchanter Andrey: 100 HP, 100 PP.
+> Enchanter Andrey: rest.
+Andrey meditates.
+> Enchanter Andrey: 100 HP, 100 PP.
+> Enchanter Andrey: 1 damage.
+Andrey takes 1 damage.
+> Enchanter Andrey: 99 HP, 100 PP.
+> Enchanter Andrey: attack.
+Andrey doesn't know how to fight.
+> Enchanter Andrey: attack does 0 damages.
+> Enchanter Andrey: 99 HP, 100 PP.
+> Enchanter Andrey: 99 damage.
+Andrey is out of combat.
+> Enchanter Andrey: 0 HP, 100 PP.
+> Enchanter Andrey: attack.
+Andrey is out of combat.
+> Enchanter Andrey: attack does 0 damages.
+> Enchanter Andrey: 0 HP, 100 PP.
+> Enchanter Andrey: special.
+Andrey is out of combat.
+> Enchanter Andrey: special does 0 damages.
+> Enchanter Andrey: 0 HP, 100 PP.
+> Enchanter Andrey: rest.
+Andrey is out of combat.
+> Enchanter Andrey: 0 HP, 100 PP.
+Andrey closes his spellbook.
+Andrey is back to his crops.
+# Test failed: invalid output.
